@@ -121,16 +121,17 @@ The app supports natural language parsing for due dates:
 
 ## File Structure
 
+
 ```
 vanilla-todo-app/
-├── index.html              # Main HTML file
-├── styles.css               # All CSS styles and themes
-├── app.js                   # Main JavaScript application
-├── sw.js                    # Service Worker for offline support
-├── manifest.json            # PWA manifest
-├── icons-reference.md       # Icon assets documentation
-├── README.md               # This file
-└── .git/                   # Git repository
+├── index.html         # Main HTML file
+├── styles.css         # All CSS styles and themes
+├── app.js             # Main JavaScript application
+├── sw.js              # Service Worker for offline support
+├── manifest.json      # PWA manifest
+├── background.png     # Background image (used for pixel art or theming)
+├── README.md          # This file
+└── .git/              # Git repository (if cloned)
 ```
 
 ## Development

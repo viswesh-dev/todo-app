@@ -1,5 +1,5 @@
 /**
- * Service Worker for Todo App
+ * Service Worker for Todo Application
  * Provides offline functionality and caching strategies
  */
 
@@ -12,7 +12,7 @@ const STATIC_FILES = [
     '/',
     '/index.html',
     '/styles.css',
-    '/app.js',
+    '/app.js',  
     '/manifest.json'
 ];
 
