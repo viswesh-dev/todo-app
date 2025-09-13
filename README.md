@@ -202,4 +202,4 @@ For PWA installation:
 
 ---
 
-**Built with ❤️ using vanilla web technologies**
+**Built with ❤️**
