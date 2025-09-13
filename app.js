@@ -1120,11 +1120,13 @@
          */
         updateTaskList(tasks) {
             this.elements.taskList.innerHTML = '';
-            
-            tasks.forEach(task => {
-                const taskElement = this.createTaskElement(task);
-                this.elements.taskList.appendChild(taskElement);
-            });
+            // Use DocumentFragment to batch DOM updates for performance
+            const fragment = document.createDocumentFragment();
+            for (let i = 0; i < tasks.length; i++) {
+                const taskElement = this.createTaskElement(tasks[i]);
+                fragment.appendChild(taskElement);
+            }
+            this.elements.taskList.appendChild(fragment);
         },
 
         /**
