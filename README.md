@@ -53,15 +53,6 @@ A production-quality, offline-capable to-do list web application built with vani
 ### Option 2: Local Server (Recommended for PWA features)
 For full PWA functionality including service worker and installability:
 
-#### Using Python:
-```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-```
-
 #### Using Node.js:
 ```bash
 # Install a simple server globally
@@ -123,7 +114,7 @@ The app supports natural language parsing for due dates:
 
 
 ```
-vanilla-todo-app/
+todo-app/
 ├── index.html         # Main HTML file
 ├── styles.css         # All CSS styles and themes
 ├── app.js             # Main JavaScript application
